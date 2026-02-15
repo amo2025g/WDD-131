@@ -7,7 +7,16 @@
     <meta name="author" content="BYU-I Student">
     <meta name="description" content="BYU-I Mission statement.">
 </head>
-<div class="center">
+<select>
+  <option>Choose Mode</option>
+  <option value="dark">Dark</option>
+  <option value="light">Light</option>
+
+</select>     
+
+<div class="outer">
+<div class="center">         
+                    
 <h1>MISSION STATEMENT</h1>
 <h5>BRIGHAM YOUNG UNIVERSITY-IDAHO<hr></h5>
 <p>Brigham Young University-Idaho was founded and is supported and guided by The Church of Jesus Christ of Latter-day Saints. Its mission is to develop disciples of Jesus Christ who are leaders in their homes, the Church, and their communities.</p>
@@ -19,6 +28,78 @@
   <li>Delivering education that is affordable for students and the Church.</li>
 </ol>
 <br>
-<img class="logo" src="byui-logo-blue.webp" alt="">
-</html>
+<img id="logo" class="logo" src="byui-logo-blue.webp" alt="">  
 </div>
+</div>
+</html>
+
+
+
+
+
+<script>
+let selectElem = document.querySelector('select');
+let logo = document.querySelector('img');
+
+selectElem.addEventListener('change', changeTheme);
+
+function changeTheme() {
+    let current = selectElem.value;
+    if (current == 'dark') {
+      document.body.classList = "dark";
+      document.getElementById('logo').src='https://wddbyui.github.io/wdd131/images/byui-logo-white.png'
+  } else {
+      document.body.classList = "none";
+      document.getElementById('logo').src='byui-logo-blue.webp'
+  }
+}                         
+</script>
+
+
+
+<style>
+.center {
+  align-content: center;
+  width: 470px;
+  margin: 0 auto;
+  outline-color: black;
+}
+
+.outer {
+  width: 600px;
+  height: 700px;
+  outline: 1px solid black;
+  margin-top: 3%;
+}
+
+.dark {
+  background-color: rgb(31, 31, 31);
+  color: rgb(229, 229, 229);
+}
+
+.dark h5 {
+  color:rgb(181, 209, 223);
+}
+
+h1, h5 {
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: 1.5px;
+}
+
+h5 {
+  color: #598ed4;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+img {
+  width: 100px;
+  align-content: center;
+  display: block;
+  margin: 0 auto;
+}
+
+</style>
