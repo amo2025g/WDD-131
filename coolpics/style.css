@@ -33,12 +33,15 @@ main h3 {
   font-size: 19px;
 }
 
+main {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .gallery {
   display: grid;
   place-items: center;
   row-gap: 20px;
-  padding: 10px;
 }
 
 .gallery img {
