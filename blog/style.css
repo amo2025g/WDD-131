@@ -1,0 +1,77 @@
+body {
+  border: 2px solid black;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(79, 59, 83);
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  max-width: 2000px;
+  gap: 60px;
+  border-top: 2px solid black;
+  font-size: 20px;
+  padding: 10px;
+}
+
+nav a {
+  margin-right: 40px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(184, 23, 85);
+}
+
+main {
+  display: grid;
+  border-top: 2px solid black;
+}
+
+.info {
+  border-bottom: 2px solid black;
+  padding-left: 30px;
+  padding: 10px;
+}
+
+.info p {
+  font-size: 20px;
+  display: flex;
+  justify-content: right;
+  margin-right: 50px;
+}
+
+#date {
+  font-style: italic;
+}
+
+.book {
+  padding: 40px;
+}
+
+h3 {
+  font-size: 28px;
+  color: rgb(184, 23, 85);
+  font-weight: bold;
+}
+
+.book img {
+  width: 250px;
+}
+
+.book p {
+  font-size: 20px;
+}
+
+footer {
+  max-width: 1000px;
+  text-align: center;
+  margin: 1rem auto;
+  padding: 20px;
+  font-size: 20px;
+}
