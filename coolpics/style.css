@@ -1,5 +1,6 @@
 body {
   background-color: rgb(201, 201, 201);
+  margin: 0;
 }
 
 header {
@@ -37,6 +38,7 @@ main h3 {
   display: grid;
   place-items: center;
   row-gap: 20px;
+  padding: 10px;
 }
 
 .gallery img {
