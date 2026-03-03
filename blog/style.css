@@ -5,7 +5,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   color: rgb(79, 59, 83);
 }
 
@@ -13,14 +13,14 @@ nav {
   display: flex;
   justify-content: right;
   max-width: 2000px;
-  gap: 25px;
+  gap: 5px;
   border-top: 2px solid black;
-  font-size: 10px;
+  font-size: 15px;
   padding: 10px;
 }
 
 nav a {
-  margin-right: 40px;
+  margin-right: 5px;
   margin-bottom: 5px;
   margin-top: 5px;
   text-decoration: none;
@@ -35,12 +35,12 @@ main {
 
 .info {
   border-bottom: 2px solid black;
-  padding-left: 30px;
+  padding-left: 20px;
   padding: 10px;
 }
 
 .info p {
-  font-size: 10px;
+  font-size: 15px;
   display: flex;
   justify-content: right;
   margin-right: 50px;
@@ -78,6 +78,21 @@ footer {
 }
 
 @media screen and (min-width: 700px) {
+  nav {
+    gap: 40px;
+  }
+  nav a {
+    font-size: 20px;
+    margin-right: 40px;
+  }
+
+  .info {
+    padding-left: 30px;
+    padding: 10px;
+  }
+  .info p {
+    font-size: 20px;
+  }
   p, footer {
     font-size: 16px;
   }
