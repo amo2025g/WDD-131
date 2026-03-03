@@ -40,7 +40,8 @@ main h3 {
 }
 
 .gallery img {
-  width: 250px;
+  max-width: 100%;
+  height: auto;
   object-fit: cover;
   border: 0.5rem solid rgb(252, 254, 255);
   outline: 1px solid rgb(147, 147, 147);
