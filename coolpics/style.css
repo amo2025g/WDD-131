@@ -8,15 +8,18 @@ header {
   height: 100%;
   background-color: rgb(52, 146, 255);
   padding-top: 7px;
-  padding-bottom: 1px;
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 27px;
+}
+
+h1, main h3, header p, header nav ul li {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header p {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 header nav ul {
@@ -26,7 +29,7 @@ header nav ul {
 
 main h3 {
   text-align: center;
-  font-size: 23px;
+  font-size: 19px;
 }
 
 
@@ -37,9 +40,19 @@ main h3 {
 }
 
 .gallery img {
+  max-width: 1000px;
+  object-fit: cover;
   border: 0.5rem solid rgb(252, 254, 255);
   outline: 1px solid rgb(147, 147, 147);
   box-shadow: 1px 5px 5px 4px rgb(69, 69, 69);
+}
+
+footer {
+  max-width: 2000px;
+  text-align: center;
+  margin: 1rem auto;
+  padding: 20px;
+  font-size: 10px;
 }
 
 
@@ -49,8 +62,12 @@ main h3 {
   justify-content: center;
 }
 
-header nav ul li {
+header nav ul li, header p {
   font-size: 20px;
+}
+
+h1 {
+  font-size: 35px;
 }
 
 header nav ul {
@@ -61,4 +78,6 @@ header nav ul {
   display: block;
   display: none;
 }
+
+
 } **/
