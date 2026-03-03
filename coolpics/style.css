@@ -56,20 +56,29 @@ main {
 footer {
   max-width: 2000px;
   text-align: center;
-  margin: 1rem auto;
+  margin-top: 1rem;
   padding: 20px;
   font-size: 10px;
+  background-color: rgb(52, 146, 255);
 }
 
-
 @media screen and (min-width: 700px) {
-/**  header h1, header nav ul li, header nav ul, header p {
+.gallery {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-start: 2;
+  row-gap: 50px;
+}
+
+  header h1, header nav ul li, header nav ul, header p {
   display: flex;
   justify-content: center;
 }
 
-header nav ul li, header p {
+header nav ul li, header nav ul li a, header p, footer {
   font-size: 20px;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -86,4 +95,4 @@ header nav ul {
 }
 
 
-} **/
+}
