@@ -16,7 +16,7 @@ nav {
   gap: 5px;
   border-top: 2px solid black;
   font-size: 15px;
-  padding: 10px;
+  padding: 5px;
 }
 
 nav a {
@@ -32,11 +32,11 @@ main {
   display: grid;
   border-top: 2px solid black;
 }
-
+t
 .info {
   border-bottom: 2px solid black;
   padding-left: 20px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .info p {
@@ -65,7 +65,7 @@ h3 {
 }
 
 .book p {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 footer {
