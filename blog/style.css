@@ -69,9 +69,22 @@ h3 {
 }
 
 footer {
-  max-width: 1000px;
+  max-width: 2000px;
   text-align: center;
   margin: 1rem auto;
   padding: 20px;
   font-size: 10px;
+  border-bottom: 2px solid black;
+}
+
+@media screen and (min-width: 700px) {
+  p, footer {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 24px;
+}
 }
